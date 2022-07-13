@@ -1,6 +1,7 @@
 import React from 'react';
 import mealsimg from'../../MEAL.JPG.jpg'
 import classes from './Header.module.css'
+import HeaderCartButton from './HeaderCartButton';
 function Header() {
   return (
    <React.Fragment>
@@ -8,7 +9,7 @@ function Header() {
             <h1>
                PROJECT MEALS 
             </h1>
-               <button>CART</button>
+               <HeaderCartButton/>
         </header>
         <div className={classes['main-image']}>
             <img src={mealsimg}alt="Food to eat "/>
