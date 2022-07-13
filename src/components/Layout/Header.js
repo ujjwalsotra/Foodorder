@@ -1,5 +1,5 @@
 import React from 'react';
-import mealsimg from'../../MEAL.JPG.jpg';
+import mealsimg from'../../MEAL.JPG.jpg'
 import classes from './Header.module.css'
 function Header() {
   return (
@@ -7,8 +7,8 @@ function Header() {
         <header className={classes.header}>
             <h1>
                PROJECT MEALS 
-               <button>CART</button>
             </h1>
+               <button>CART</button>
         </header>
         <div className={classes['main-image']}>
             <img src={mealsimg}alt="Food to eat "/>
