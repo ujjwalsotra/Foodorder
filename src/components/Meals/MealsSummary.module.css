@@ -5,16 +5,18 @@
     margin: auto;
     margin-top: -10rem;
     position: relative;
-    background-color: #5a1111;
+    background-color: #6028288e;
     color: white;
     border-radius: 50px;
     padding: 1rem;
     box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5rem;
   }
   
   .summary h2 {
     font-size: 3rem;
-    margin-top: 0;
+    margin-top: 1;
+    color: black;
   }
   .summary p{
     font-size: 1.5rem;
