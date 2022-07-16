@@ -1,0 +1,72 @@
+.mainlog{
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginform {
+    box-shadow: inset;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .loginput,.logpassinput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1%;
+  }
+  .loginwindow{
+    display: flex;
+  }
+ .label{
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .logbutton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .logbutton:hover {
+    opacity: 0.8;
+  }
+
+  .register {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .register:hover{
+    opacity: 0.8;
+  }
+  .registerLink{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300px;
+  }
+  @media screen and (max-width: 300px) {
+    .register {
+      width: 100%;
+    }
+  }
