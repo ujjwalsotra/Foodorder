@@ -69,6 +69,8 @@ const Checkout = (props) => {
   }`;
 
   return (
+    <div className={classes.block}>
+
     <form className={classes.form} onSubmit={confirmHandler}>
       <div className={nameControlClasses}>
         <label htmlFor='name'>Your Name</label>
@@ -85,7 +87,7 @@ const Checkout = (props) => {
         <input type='text' id='postal' ref={postalCodeInputRef} />
         {!formInputsValidity.postalCode && (
           <p>Please enter a valid postal code (5 characters long)!</p>
-        )}
+          )}
       </div>
       <div className={cityControlClasses}>
         <label htmlFor='city'>City</label>
@@ -99,6 +101,7 @@ const Checkout = (props) => {
         <button className={classes.submit}>Confirm</button>
       </div>
     </form>
+          </div>
   );
 };
 
